@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nature Beauty</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f8e9;
+        }
+
+        header {
+            background-color: #1b5e20;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #388e3c;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        .hero {
+            background: url("https://images.unsplash.com/photo-1448375240586-882707db888b")
+            center/cover;
+            height: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #1b5e20;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 280px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .contact {
+            background-color: #c8e6c9;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            margin-top: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌿 Nature Beauty</h1>
+        <p>Explore the Beauty of Nature</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <div>
+            <h1>Discover Nature</h1>
+            <p>Nature is the art of God.</p>
+            <button onclick="alert('Save Nature, Save Life!')">
+                Explore More
+            </button>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <h2>About Nature</h2>
+        <p>
+            Nature is a beautiful gift to us. It includes trees,
+            plants, mountains, rivers, animals and forests.
+            Nature gives us fresh air, water and food.
+            We should protect nature and keep our environment clean.
+        </p>
+    </section>
+
+    <section id="gallery">
+        <h2>Nature Gallery</h2>
+
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Mountain">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8" alt="Sunrise">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Forest">
+            <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716" alt="Waterfall">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Save Nature</h2>
+        <p>Protect trees, save water and keep our planet green.</p>
+        <button onclick="alert('Thank you for loving nature!')">
+            Join Us
+        </button>
+    </section>
+
+    <footer>
+        <p>© 2026 Nature Beauty | Save Nature, Save Life 🌱</p>
+    </footer>
+
+</body>
+</html>
